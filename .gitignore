@@ -1,0 +1,40 @@
+# generated folder
+dist
+build
+
+# Ignore VS Code files
+.vscode
+# Ignore the zip files
+*.zip
+
+# Ignore PyCharm settings
+.idea
+.idea/*
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+### OSX ###
+.DS_Store
+
+### Sass ###
+.sass-cache/
+
+### Xcode ###
+xcuserdata
+*.xcuserstate
+
+### Fastlane ###
+**/fastlane/report.xml
+
+### Other caches ###
+/.parcel-cache

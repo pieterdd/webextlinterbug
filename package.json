@@ -1,0 +1,20 @@
+{
+    "name": "minimum-repro",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "rm -rf build && parcel src/manifest.json --dist-dir build",
+        "build": "rm -rf build && parcel build src/manifest.json --dist-dir build && yarn web-ext build -s build -a dist",
+        "attach-firefox": "web-ext run --verbose -s build"
+    },
+    "alias": {
+        "src": "src"
+    },
+    "devDependencies": {
+        "@parcel/config-webextension": "^2.5.0",
+        "@parcel/core": "^2.5.0",
+        "autoprefixer": "^9.1.2",
+        "parcel": "^2.5.0",
+        "web-ext": "^6.8.0"
+    }
+}

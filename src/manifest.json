@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Minimal reproduction",
+    "version": "0.0.1",
+
+    "permissions": [],
+
+    "browser_action": {
+        "default_title": "Minimal repro",
+        "default_popup": "html/popup.html"
+    }
+}

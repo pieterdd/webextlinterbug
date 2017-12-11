@@ -1,0 +1,10 @@
+{
+    "extends": "@parcel/config-webextension",
+    /* The lines below ensure Jest and Parcel can cooperate nicely.
+     * https://parceljs.org/languages/javascript/#usage-with-other-tools */
+    "transformers": {
+        "*.{js,mjs,jsx,cjs,ts,tsx}": [
+          "@parcel/transformer-js"
+        ]
+    }
+}
